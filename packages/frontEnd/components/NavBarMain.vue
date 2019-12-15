@@ -16,7 +16,7 @@
         <ul class="inline">
           <li><a href="#">Documentation</a></li>
           <li><a href="#">About</a></li>
-          <li><a href="#">Github</a></li>
+          <li><ReactiveNavButton /></li>
         </ul>
       </div>
     </div>
@@ -24,7 +24,12 @@
 </template>
 
 <script>
-export default {}
+import ReactiveNavButton from '~/components/ReactiveNavButton.vue'
+export default {
+  components: {
+    ReactiveNavButton
+  }
+}
 </script>
 
 <style lang="scss" scoped></style>
