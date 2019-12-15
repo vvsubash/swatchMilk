@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>fg</h1>
-  </div>
+  <div><a class="paper-btn" href="#">Github</a></div>
 </template>
 
 <script>
