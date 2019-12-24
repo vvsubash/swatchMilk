@@ -14,14 +14,15 @@
     "adj": "npx prettier --write \"**/*.{vue,js}\""
   },
   "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/pwa": "^3.0.0-0",
     "core-js": "2",
+    "dot-env": "^0.0.1",
     "firebase": "^7.6.0",
     "nuxt": "latest",
     "vuexfire": "^3.2.0"
   },
   "devDependencies": {
-    "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/eslint-config": "^1.0.1",
     "@nuxtjs/eslint-module": "^1.0.0",
     "@vue/test-utils": "^1.0.0-beta.27",
