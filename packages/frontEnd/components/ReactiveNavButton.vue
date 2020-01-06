@@ -10,7 +10,11 @@ import { mapState } from 'vuex'
 export default {
   methods: {
     signin() {
-      this.$store.dispatch('signInWithGoogle')
+      this.$store.state.user != null
+        ? // eslint-disable-next-line no-undef
+          this.$router.push('dashboard')
+        : this.$store.dispatch('signInWithGoogle')
+      // this.$store.dispatch('signInWithGoogle')
     }
   }
 }
