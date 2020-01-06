@@ -1,6 +1,6 @@
 import firebase from 'firebase'
 // import { vuexfireMutations, firestoreAction } from 'vuexfire'
-// import db from '~/plugins/firestore'
+// import db from '~/plugins/firebaseImport'
 export const state = () => ({
   user: null
   // animals: []
