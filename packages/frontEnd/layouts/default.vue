@@ -12,3 +12,8 @@ export default {
   }
 }
 </script>
+<style>
+body {
+  background-image: url('~static/geometry2.png');
+}
+</style>

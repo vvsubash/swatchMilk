@@ -1,16 +1,15 @@
 <template>
-  <div>
-    <h1>fg</h1>
-    <h3>{{ fd }}</h3>
-  </div>
+  <HeroSection />
 </template>
 
 <script>
+import HeroSection from '~/components/HeroSection'
 export default {
+  components: {
+    HeroSection
+  },
   data() {
-    return {
-      fd: process.env.FD
-    }
+    return {}
   }
 }
 </script>

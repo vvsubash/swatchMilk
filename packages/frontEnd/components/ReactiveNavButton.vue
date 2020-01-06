@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <a @click="signin" class="paper-btn">{{
-      this.$store.state.user != null ? this.$store.state.user : 'Login'
-    }}</a>
-  </div>
+  <a @click="signin" class="">
+    {{ this.$store.state.user != null ? this.$store.state.user : 'Login' }}
+  </a>
 </template>
 
 <script>
